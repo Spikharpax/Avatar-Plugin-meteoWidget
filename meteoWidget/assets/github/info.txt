@@ -1,3 +1,5 @@
-Placez une widget météo sur l'interface avatar pour connaitre la météo en un clin d'oeil !
+Placez un widget météo sur l'interface avatar pour connaitre la météo en un clin d'oeil !
 
 Définissez votre propre widget et votre météo de 1 à 5 jours très simplement et en 5 minutes.
+
+
