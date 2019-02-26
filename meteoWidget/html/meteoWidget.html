@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="node_modules/xel/themes/material.css">
+    <script src="node_modules/xel/xel.min.js"></script>
+    <link rel="stylesheet" href="./meteo.css"/>
+  </head>
+  <body>
+    <!-- widget meteo
+     voir http://www.widget-meteo.com/ pour un nouveau widget meteo
+     Modifiez la div suivante avec la nouvelle div générée sur ce site
+     copiez la largeur et la hauteur de la fenêtre et ajoutez ces valeurs dans le fichier de propriétés
+
+     TRES IMPORTANT !!!
+     Attention !! gardez la class="meteo" dans la nouvelle div  !!!
+     Recopiez-la classe à l'identique !
+     l'id provient du site et peut être remplacé
+   -->
+   <div class="meteo" id="widget_4c57a313d4d23df3744038eb5c7aceda">
+      <span id="l_4c57a313d4d23df3744038eb5c7aceda"><a href="http://www.mymeteo.info/r/paris_ng">Paris pr&eacute;visions</a></span>
+      <script type="text/javascript">
+      (function() {
+      	var my = document.createElement("script"); my.type = "text/javascript"; my.async = true;
+      	my.src = "https://services.my-meteo.com/widget/js_design?ville=251&format=vertical&nb_jours=3&ombre1=000000&c1=ffffff&c2=a9a9a9&c3=ffffff&c4=ffffff&c5=ffffff&police=0&t_icones=2&fond=1&masque=3&x=160&y=442&d=0&id=4c57a313d4d23df3744038eb5c7aceda";
+      	var z = document.getElementsByTagName("script")[0]; z.parentNode.insertBefore(my, z);
+      })();
+      </script>
+    </div>
+    <!-- widget meteo -->
+
+    <!-- Exit button -->
+    <x-button class="exit" id="exit">
+      <x-box>
+        <x-label class="label-exit">Quitter</x-label>
+      </x-box>
+    </x-button>
+    <!-- Exit button -->
+    <script>
+        require('./meteo.js');
+    </script>
+  </body>
+</html>

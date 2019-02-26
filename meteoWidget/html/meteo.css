@@ -1,0 +1,34 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-app-region:drag;
+}
+
+.meteo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.exit {
+  position: fixed;
+  top: calc(100% - 20px);
+  left: 10px;
+  z-index: 2;
+  -webkit-app-region:no-drag;
+}
+.exit:hover {
+    cursor: pointer;
+}
+
+.label-exit{
+  font: 11px helvetica neue, helvetica, arial, sans-serif;
+  color: white;
+}
+.label-exit:hover {
+  color: green;
+}
