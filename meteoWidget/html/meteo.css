@@ -14,21 +14,16 @@ body {
   z-index: 1;
 }
 
-.exit {
+.label-exit{
   position: fixed;
-  top: calc(100% - 20px);
-  left: 10px;
+  top: calc(100% - 15px);
+  left: 8px;
   z-index: 2;
   -webkit-app-region:no-drag;
-}
-.exit:hover {
-    cursor: pointer;
-}
-
-.label-exit{
   font: 11px helvetica neue, helvetica, arial, sans-serif;
   color: white;
 }
 .label-exit:hover {
   color: green;
+  cursor: pointer;
 }
