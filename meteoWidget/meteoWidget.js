@@ -1,8 +1,7 @@
 // see http://www.widget-meteo.com/ for other meteo widget
 // Modify the html/meteoWidget.html with other div from this site
-// and add the associated width and height window size in the property file
+// and add the associated width and height window sizes in the property file
 
-const {Graph} = require('cyto-avatar');
 const {remote, ipcRenderer} = require('electron');
 const {ipcMain, BrowserWindow} = remote;
 const fs = require('fs-extra');
